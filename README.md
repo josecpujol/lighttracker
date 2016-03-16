@@ -7,7 +7,7 @@ There are two independent servo motors that are controlled by the feedback obtai
 ## Hardware
 The hardware consists of a structure where 4 photoresistors, forming two independent voltage dividers. They are mounted in a 4 face pyramid, so when the pyramid is facing the brightest source of light, we will obtain a (theoretically) perfect half voltage in both voltage dividers.
 
-![alt tab] https://raw.githubusercontent.com/josecpujol/lighttracker/master/lighttracker.png
+![alt tag] https://raw.githubusercontent.com/josecpujol/lighttracker/master/lighttracker.png
 
 The voltage read points are connected to A0 and A1 in the arduino board
 
