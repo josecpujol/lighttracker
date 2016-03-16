@@ -53,8 +53,8 @@ void loop()
   computeNewPosition(&control1);
   computeNewPosition(&control2);
  
- // myservo1.write(control1.pos);
- // myservo2.write(control2.pos);
+  myservo1.write(control1.pos);
+  myservo2.write(control2.pos);
   
   // printState(&control1);
   // printState(&control2);
